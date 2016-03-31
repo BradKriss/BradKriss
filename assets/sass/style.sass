@@ -1,0 +1,44 @@
+@import "compass"
+@import "compass/layout"
+@import "susy"
+
+$medium-screen: 600px
+$small-screen: 450px
+$micro-screen: 340px
+
+@import "clearfix"
+@import "typography"
+@import "skill-boxes"
+@import "sprites"
+
+body
+  padding: 0
+  margin: 0
+  width: 100%
+
+#site-container
+  +container(600px)
+  @media (max-width: $medium-screen)
+    +container(95%)
+
+#intro-text
+  +trailing-border(2px, 1)
+
+#skills
+  +trailing-border(2px, 2)
+  .skill-box
+    +span(1 of 3 inside)
+    .skill-box-content-wrap
+      display: inline-block
+      position: relative
+      width: 100%
+      .skill-box-content
+        position: absolute
+        +stretch(0)
+
+#contact
+  +leader(1)
+  +trailer(1)
+
+.enforce-aspect
+  padding-top: 100%

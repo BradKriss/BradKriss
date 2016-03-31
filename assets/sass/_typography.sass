@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700)
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400)
+
+$base-font-size: 18px
+$base-line-height: 18px
++establish-baseline
+
+$base-content-font: 'Lato', sans-serif
+$base-header-font: 'Montserrat', sans-serif
+
+body, p, span, div
+  font-family: $base-content-font
+
+h1, h2, h3, h4
+  font-family: $base-header-font
+
+h1
+  +adjust-font-size-to(50px)
+  @media (max-width: $medium-screen)
+    +adjust-font-size-to(40px)
+
+h2
+  +adjust-font-size-to(40px)
+  @media (max-width: $medium-screen)
+    +adjust-font-size-to(36px)
+
+h3
+  +adjust-font-size-to(30px)
+  @media (max-width: $medium-screen)
+    +adjust-font-size-to(24px)
+
+h4
+  +adjust-font-size-to(24px)
+  @media (max-width: $medium-screen)
+    +adjust-font-size-to(20px)
+
+p
+  @media (max-width: $medium-screen)
+    +adjust-font-size-to(.9em)
+
+.center-text
+  text-align: center
+
+.skill-subtext
+  font-size: 8px
+  line-height: 11px
+
+p
+  &.skill-header
+    font-size: 20px
+    line-height: 24px
+    @media (max-width: $medium-screen)
+      font-size: 20px
+      line-height: 22px
+    @media (max-width: $small-screen)
+      font-size: 14px
+      line-height: 16px
+    @media (max-width: $micro-screen)
+      font-size: 12px
+      line-height: 12px

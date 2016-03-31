@@ -1,0 +1,53 @@
+$main-color: #2c3e50
+
+$skillColors: #4AA6F5 #e74c3c #2ecc71 #e67e22 #f39c12 #9b59b6 #34495e #16a085
+$skillVerticalPositions: top top top center center center bottom bottom
+$skillHorizontalPositions: left center right left center right left center
+
+@each $skillColor in $skillColors
+  $i: index($skillColors, $skillColor)
+  #skill-box-#{$i}
+    background-color: $skillColor
+    color: contrast-color($skillColor, scale_color($skillColor, $lightness: -90%), scale_color($skillColor, $lightness: 90%))
+    +transition(background-color .9s, transform .5s)
+    +transform-origin(nth($skillVerticalPositions, $i), nth($skillHorizontalPositions, $i))
+    &:hover
+      background-color: contrast-color($skillColor, scale_color($skillColor, $lightness: -15%), scale_color($skillColor, $lightness: 15%))
+      div
+        div
+          .skill-header
+            @media (min-width: $medium-screen)
+              +simple-transform($scale: 1.1)
+
+.skill-header
+  +transform-origin(top, center)
+  +transition(transform .5s)
+  position: relative
+  z-index: 1
+
+.full-size
+  +scale(3)
+  z-index: 2
+  position: relative
+  div
+    div
+      .skill-header
+        font-size: 20px
+        line-height: 20px
+        @media (max-width: $medium-screen)
+          font-size: 15px
+          line-height: 16px
+        @media (max-width: $small-screen)
+          font-size: 10px
+          line-height: 10px
+        @media (max-width: $micro-screen)
+          font-size: 8px
+          line-height: 8px
+      .skill-subtext
+        @media (max-width: $medium-screen)
+          font-weight: 300
+          font-size: 7px
+          line-height: 7px
+        @media (max-width: $small-screen)
+          font-size: 6px
+          line-height: 6px

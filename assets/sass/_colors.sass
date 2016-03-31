@@ -1,0 +1,8 @@
+$main-color: #2c3e50
+
+$skillColors: #4AA6F5 #e74c3c #2ecc71 #e67e22 #f39c12 #9b59b6 #34495e #16a085
+
+@each $skillColor in $skillColors
+  #skill-box-#{index($skillColors, $skillColor)}
+    background-color: $skillColor
+    color: contrast-color($skillColor, scale_color($skillColor, $lightness: -90%), scale_color($skillColor, $lightness: 90%))

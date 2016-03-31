@@ -1,0 +1,12 @@
+$icons: sprite-map("icons/*.png")
+
+$iconNames: twitter github 
+
+i
+  background: $icons
+  display: inline-block
+
+@each $i in $iconNames
+  .icon-#{$i}
+    background-position: sprite-position($icons, $i)
+    +sprite-dimensions($icons, $i)
