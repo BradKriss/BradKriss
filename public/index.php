@@ -1,3 +1,6 @@
+<?php
+    header("Cache-Control: max-age=86400, public");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,12 +8,18 @@
     <title>Brad Kriss</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Brad Kriss - Full Stack Web Developer">
+    <meta name="description" content="I'm Brad Kriss, a recent father to a beautiful daughter, Co-founder of
+      RateGator, and currently living in charming Saratoga Springs, New York.">
+    
+    <meta name="author" content="Brad Kriss">
 </head>
-<body>
+<body lang="en">
 
 <!-- Source code avaliable on GitHub! BradKriss/BradKriss -->
 <!-- https://github.com/BradKriss/BradKriss -->
 <div id="site-container">
+    
   <section id="top-content">
     <h1 id="intro-header">Full Stack <br />Web Developer</h1>
     <h4 id="intro-text">
@@ -146,6 +155,7 @@
         <a href="https://github.com/BradKriss/BradKriss"><i class="icon-github"></i></a>
     </div>
   </section>
+  
 </div>
 
 <script src="http://code.jquery.com/jquery-2.2.1.min.js"></script>
