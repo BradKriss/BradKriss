@@ -151,7 +151,7 @@
 
   <section id="contact">
     <div class="center-text">
-        <a href="https://twitter.com/Brad_Kriss"><i class="icon-twitter"></i></a>
+        <a href="https://twitter.com/BradKriss"><i class="icon-twitter"></i></a>
         <a href="https://github.com/BradKriss/BradKriss"><i class="icon-github"></i></a>
     </div>
   </section>
