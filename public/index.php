@@ -50,9 +50,8 @@
             <div class="skill-box-content">
               <p class="skill-header">Javascript</p>
               <p class="skill-subtext" style="display: none;">
-                  I used to suck a JS, but I've come a long way! It used to be a
-                  dread to build to JS out to access the APIs I built but
-                  after digging in and learning it the right way and finding a
+                  I used to suck a JS, but I've come a long way! 
+                  After digging in and learning it the right way and finding a
                   framework that fit my style I've come to love JS and all the
                   great things that can be accomplished with it. VueJS ftw
               </p>
