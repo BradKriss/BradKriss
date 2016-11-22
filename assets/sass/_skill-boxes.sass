@@ -12,6 +12,7 @@ $skillHorizontalPositions: left center right left center right left center
     +transition(background-color .9s, transform .5s)
     +transform-origin(nth($skillVerticalPositions, $i), nth($skillHorizontalPositions, $i))
     &:hover
+      cursor: pointer
       background-color: contrast-color($skillColor, scale_color($skillColor, $lightness: -15%), scale_color($skillColor, $lightness: 15%))
       div
         div
