@@ -5,6 +5,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="google-site-verification" content="M-3IN_2TSzb3-LCngNe2e75EYYw1v1i9I84jpfoXAJ0" />
     <title>Brad Kriss</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
