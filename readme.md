@@ -1,3 +1,3 @@
 ## BradKriss.com ##
 
-aint no bootstrap template here!
+Personal splash page
