@@ -22,8 +22,7 @@
 <div id="site-container">
     
   <section id="top-content">
-    <h1 id="intro-header"></h1>
-      Brad Kriss
+    <h1 id="intro-header">Brad Kriss</h1>
     <h4 id="intro-text">
       Full Stack <br />Web Developer
     </h4>
