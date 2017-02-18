@@ -9,7 +9,7 @@
     <title>Brad Kriss</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="title" content="Brad Kriss - Full Stack Web Developer">
+    <meta name="title" content="Brad Kriss | Full Stack Web Developer">
     <meta name="description" content="I'm Brad Kriss, a recent father to a beautiful daughter, Co-founder of
       RateGator, and currently living in charming Saratoga Springs, New York.">
     
@@ -37,7 +37,5 @@
   
 </div>
 
-<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-<script src="js/script.js"></script>
 </body>
 </html>
