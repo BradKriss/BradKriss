@@ -12,8 +12,8 @@
     <meta name="title" content="Brad Kriss | Full Stack Web Developer">
     <meta name="description" content="I'm Brad Kriss, this is my personal website.">
     <meta name="author" content="Brad Kriss">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 </head>
 <body lang="en">
 
