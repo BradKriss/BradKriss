@@ -24,8 +24,8 @@
   <section id="top-content">
     <h1 id="intro-header">Full Stack <br />Web Developer</h1>
     <h4 id="intro-text">
-      I'm Brad Kriss, a recent father to a beautiful daughter, Co-founder of
-      RateGator, and currently living in charming Saratoga Springs, New York.
+        I'm Brad Kriss, about to be a father of daughters, Senior Web Developer at BrandXads, 
+        Co-founder of RateGator, and wishing it would actually be spring in Saratoga Springs, New York.
     </h4>
   </section>
 
