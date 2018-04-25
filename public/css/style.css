@@ -226,6 +226,7 @@ body {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1.08em;
 }
 /* line 12, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
 #site-container:after {
@@ -239,6 +240,7 @@ body {
     max-width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1.35em;
   }
   /* line 12, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
   #site-container:after {
@@ -248,20 +250,20 @@ body {
   }
 }
 
-/* line 24, ../../assets/sass/style.sass */
+/* line 26, ../../assets/sass/style.sass */
 #intro-text {
   border-bottom-width: 0.11111em;
   border-bottom-style: solid;
   padding-bottom: 0.88889em;
 }
 
-/* line 27, ../../assets/sass/style.sass */
+/* line 29, ../../assets/sass/style.sass */
 #contact {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 31, ../../assets/sass/style.sass */
+/* line 33, ../../assets/sass/style.sass */
 .enforce-aspect {
   padding-top: 100%;
 }
