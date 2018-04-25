@@ -150,14 +150,14 @@ i {
   width: 30px;
 }
 
-/* line 7, ../../assets/sass/_photos.sass */
+/* line 10, ../../assets/sass/_photos.sass */
 #photos {
   width: 100%;
   padding-bottom: 75%;
   position: relative;
 }
 
-/* line 12, ../../assets/sass/_photos.sass */
+/* line 15, ../../assets/sass/_photos.sass */
 .photo {
   max-width: 100%;
   position: absolute;
@@ -168,35 +168,46 @@ i {
   transition: opacity 1s, ease-in-out;
 }
 
-/* line 19, ../../assets/sass/_photos.sass */
+/* line 22, ../../assets/sass/_photos.sass */
 #photos img:nth-of-type(1) {
+  animation-delay: 16s;
+}
+/* line 24, ../../assets/sass/_photos.sass */
+#photos img:nth-of-type(2) {
+  animation-delay: 12s;
+}
+/* line 26, ../../assets/sass/_photos.sass */
+#photos img:nth-of-type(3) {
+  animation-delay: 8s;
+}
+/* line 28, ../../assets/sass/_photos.sass */
+#photos img:nth-of-type(4) {
   animation-delay: 4s;
 }
-/* line 21, ../../assets/sass/_photos.sass */
-#photos img:nth-of-type(2) {
+/* line 30, ../../assets/sass/_photos.sass */
+#photos img:nth-of-type(5) {
   animation-delay: 0s;
 }
 
-/* line 24, ../../assets/sass/_photos.sass */
+/* line 34, ../../assets/sass/_photos.sass */
 .photo {
   animation-name: fadeInOut;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
-  animation-duration: calc( ( 4s + 0.5s ) * 2 );
-  animation-direction: alternate;
+  animation-duration: 21s;
 }
 
 @keyframes fadeInOut {
   0% {
     opacity: 1;
   }
-  17% {
+  19.04762% {
     opacity: 1;
   }
-  25% {
+  23.80952% {
     opacity: 0;
   }
-  92% {
+  95.2381% {
     opacity: 0;
   }
   100% {
