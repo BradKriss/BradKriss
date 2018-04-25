@@ -16,7 +16,7 @@
   zoom: 1;
 }
 
-/* line 106, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
+/* line 106, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 112.5%;
   line-height: 1em;
@@ -130,287 +130,6 @@ p.skill-header {
   }
 }
 
-/* line 9, ../../assets/sass/_skill-boxes.sass */
-#skill-box-1 {
-  background-color: #4AA6F5;
-  color: #02111e;
-  -moz-transition: background-color 0.9s, -moz-transform 0.5s;
-  -o-transition: background-color 0.9s, -o-transform 0.5s;
-  -webkit-transition: background-color 0.9s, -webkit-transform 0.5s;
-  transition: background-color 0.9s, transform 0.5s;
-  -moz-transform-origin: top left;
-  -ms-transform-origin: top left;
-  -webkit-transform-origin: top left;
-  transform-origin: top left;
-}
-/* line 14, ../../assets/sass/_skill-boxes.sass */
-#skill-box-1:hover {
-  background-color: #1d90f2;
-}
-@media (min-width: 600px) {
-  /* line 18, ../../assets/sass/_skill-boxes.sass */
-  #skill-box-1:hover div div .skill-header {
-    -moz-transform:  scale(1.1, 1.1);
-    -ms-transform:  scale(1.1, 1.1);
-    -webkit-transform:  scale(1.1, 1.1);
-    transform:  scale(1.1, 1.1);
-  }
-}
-
-/* line 9, ../../assets/sass/_skill-boxes.sass */
-#skill-box-2 {
-  background-color: #e74c3c;
-  color: #fdedec;
-  -moz-transition: background-color 0.9s, -moz-transform 0.5s;
-  -o-transition: background-color 0.9s, -o-transform 0.5s;
-  -webkit-transition: background-color 0.9s, -webkit-transform 0.5s;
-  transition: background-color 0.9s, transform 0.5s;
-  -moz-transform-origin: top center;
-  -ms-transform-origin: top center;
-  -webkit-transform-origin: top center;
-  transform-origin: top center;
-}
-/* line 14, ../../assets/sass/_skill-boxes.sass */
-#skill-box-2:hover {
-  background-color: #dc2d1b;
-}
-@media (min-width: 600px) {
-  /* line 18, ../../assets/sass/_skill-boxes.sass */
-  #skill-box-2:hover div div .skill-header {
-    -moz-transform:  scale(1.1, 1.1);
-    -ms-transform:  scale(1.1, 1.1);
-    -webkit-transform:  scale(1.1, 1.1);
-    transform:  scale(1.1, 1.1);
-  }
-}
-
-/* line 9, ../../assets/sass/_skill-boxes.sass */
-#skill-box-3 {
-  background-color: #2ecc71;
-  color: #05140b;
-  -moz-transition: background-color 0.9s, -moz-transform 0.5s;
-  -o-transition: background-color 0.9s, -o-transform 0.5s;
-  -webkit-transition: background-color 0.9s, -webkit-transform 0.5s;
-  transition: background-color 0.9s, transform 0.5s;
-  -moz-transform-origin: top right;
-  -ms-transform-origin: top right;
-  -webkit-transform-origin: top right;
-  transform-origin: top right;
-}
-/* line 14, ../../assets/sass/_skill-boxes.sass */
-#skill-box-3:hover {
-  background-color: #27ad60;
-}
-@media (min-width: 600px) {
-  /* line 18, ../../assets/sass/_skill-boxes.sass */
-  #skill-box-3:hover div div .skill-header {
-    -moz-transform:  scale(1.1, 1.1);
-    -ms-transform:  scale(1.1, 1.1);
-    -webkit-transform:  scale(1.1, 1.1);
-    transform:  scale(1.1, 1.1);
-  }
-}
-
-/* line 9, ../../assets/sass/_skill-boxes.sass */
-#skill-box-4 {
-  background-color: #e67e22;
-  color: #180d03;
-  -moz-transition: background-color 0.9s, -moz-transform 0.5s;
-  -o-transition: background-color 0.9s, -o-transform 0.5s;
-  -webkit-transition: background-color 0.9s, -webkit-transform 0.5s;
-  transition: background-color 0.9s, transform 0.5s;
-  -moz-transform-origin: center left;
-  -ms-transform-origin: center left;
-  -webkit-transform-origin: center left;
-  transform-origin: center left;
-}
-/* line 14, ../../assets/sass/_skill-boxes.sass */
-#skill-box-4:hover {
-  background-color: #ca6b17;
-}
-@media (min-width: 600px) {
-  /* line 18, ../../assets/sass/_skill-boxes.sass */
-  #skill-box-4:hover div div .skill-header {
-    -moz-transform:  scale(1.1, 1.1);
-    -ms-transform:  scale(1.1, 1.1);
-    -webkit-transform:  scale(1.1, 1.1);
-    transform:  scale(1.1, 1.1);
-  }
-}
-
-/* line 9, ../../assets/sass/_skill-boxes.sass */
-#skill-box-5 {
-  background-color: #f39c12;
-  color: #191001;
-  -moz-transition: background-color 0.9s, -moz-transform 0.5s;
-  -o-transition: background-color 0.9s, -o-transform 0.5s;
-  -webkit-transition: background-color 0.9s, -webkit-transform 0.5s;
-  transition: background-color 0.9s, transform 0.5s;
-  -moz-transform-origin: center center;
-  -ms-transform-origin: center center;
-  -webkit-transform-origin: center center;
-  transform-origin: center center;
-}
-/* line 14, ../../assets/sass/_skill-boxes.sass */
-#skill-box-5:hover {
-  background-color: #d3860b;
-}
-@media (min-width: 600px) {
-  /* line 18, ../../assets/sass/_skill-boxes.sass */
-  #skill-box-5:hover div div .skill-header {
-    -moz-transform:  scale(1.1, 1.1);
-    -ms-transform:  scale(1.1, 1.1);
-    -webkit-transform:  scale(1.1, 1.1);
-    transform:  scale(1.1, 1.1);
-  }
-}
-
-/* line 9, ../../assets/sass/_skill-boxes.sass */
-#skill-box-6 {
-  background-color: #9b59b6;
-  color: #f5eef8;
-  -moz-transition: background-color 0.9s, -moz-transform 0.5s;
-  -o-transition: background-color 0.9s, -o-transform 0.5s;
-  -webkit-transition: background-color 0.9s, -webkit-transform 0.5s;
-  transition: background-color 0.9s, transform 0.5s;
-  -moz-transform-origin: center right;
-  -ms-transform-origin: center right;
-  -webkit-transform-origin: center right;
-  transform-origin: center right;
-}
-/* line 14, ../../assets/sass/_skill-boxes.sass */
-#skill-box-6:hover {
-  background-color: #aa72c1;
-}
-@media (min-width: 600px) {
-  /* line 18, ../../assets/sass/_skill-boxes.sass */
-  #skill-box-6:hover div div .skill-header {
-    -moz-transform:  scale(1.1, 1.1);
-    -ms-transform:  scale(1.1, 1.1);
-    -webkit-transform:  scale(1.1, 1.1);
-    transform:  scale(1.1, 1.1);
-  }
-}
-
-/* line 9, ../../assets/sass/_skill-boxes.sass */
-#skill-box-7 {
-  background-color: #34495e;
-  color: #e8edf2;
-  -moz-transition: background-color 0.9s, -moz-transform 0.5s;
-  -o-transition: background-color 0.9s, -o-transform 0.5s;
-  -webkit-transition: background-color 0.9s, -webkit-transform 0.5s;
-  transition: background-color 0.9s, transform 0.5s;
-  -moz-transform-origin: bottom left;
-  -ms-transform-origin: bottom left;
-  -webkit-transform-origin: bottom left;
-  transform-origin: bottom left;
-}
-/* line 14, ../../assets/sass/_skill-boxes.sass */
-#skill-box-7:hover {
-  background-color: #476481;
-}
-@media (min-width: 600px) {
-  /* line 18, ../../assets/sass/_skill-boxes.sass */
-  #skill-box-7:hover div div .skill-header {
-    -moz-transform:  scale(1.1, 1.1);
-    -ms-transform:  scale(1.1, 1.1);
-    -webkit-transform:  scale(1.1, 1.1);
-    transform:  scale(1.1, 1.1);
-  }
-}
-
-/* line 9, ../../assets/sass/_skill-boxes.sass */
-#skill-box-8 {
-  background-color: #16a085;
-  color: #e2fbf6;
-  -moz-transition: background-color 0.9s, -moz-transform 0.5s;
-  -o-transition: background-color 0.9s, -o-transform 0.5s;
-  -webkit-transition: background-color 0.9s, -webkit-transform 0.5s;
-  transition: background-color 0.9s, transform 0.5s;
-  -moz-transform-origin: bottom center;
-  -ms-transform-origin: bottom center;
-  -webkit-transform-origin: bottom center;
-  transform-origin: bottom center;
-}
-/* line 14, ../../assets/sass/_skill-boxes.sass */
-#skill-box-8:hover {
-  background-color: #1ccba9;
-}
-@media (min-width: 600px) {
-  /* line 18, ../../assets/sass/_skill-boxes.sass */
-  #skill-box-8:hover div div .skill-header {
-    -moz-transform:  scale(1.1, 1.1);
-    -ms-transform:  scale(1.1, 1.1);
-    -webkit-transform:  scale(1.1, 1.1);
-    transform:  scale(1.1, 1.1);
-  }
-}
-
-/* line 22, ../../assets/sass/_skill-boxes.sass */
-.skill-header {
-  -moz-transform-origin: top center;
-  -ms-transform-origin: top center;
-  -webkit-transform-origin: top center;
-  transform-origin: top center;
-  -moz-transition: -moz-transform 0.5s;
-  -o-transition: -o-transform 0.5s;
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  position: relative;
-  z-index: 1;
-}
-
-/* line 28, ../../assets/sass/_skill-boxes.sass */
-.full-size {
-  -moz-transform: scale(3, 3);
-  -ms-transform: scale(3, 3);
-  -webkit-transform: scale(3, 3);
-  transform: scale(3, 3);
-  z-index: 2;
-  position: relative;
-}
-/* line 34, ../../assets/sass/_skill-boxes.sass */
-.full-size div div .skill-header {
-  font-size: 20px;
-  line-height: 20px;
-}
-@media (max-width: 600px) {
-  /* line 34, ../../assets/sass/_skill-boxes.sass */
-  .full-size div div .skill-header {
-    font-size: 15px;
-    line-height: 16px;
-  }
-}
-@media (max-width: 450px) {
-  /* line 34, ../../assets/sass/_skill-boxes.sass */
-  .full-size div div .skill-header {
-    font-size: 10px;
-    line-height: 10px;
-  }
-}
-@media (max-width: 340px) {
-  /* line 34, ../../assets/sass/_skill-boxes.sass */
-  .full-size div div .skill-header {
-    font-size: 8px;
-    line-height: 8px;
-  }
-}
-@media (max-width: 600px) {
-  /* line 46, ../../assets/sass/_skill-boxes.sass */
-  .full-size div div .skill-subtext {
-    font-weight: 300;
-    font-size: 7px;
-    line-height: 7px;
-  }
-}
-@media (max-width: 450px) {
-  /* line 46, ../../assets/sass/_skill-boxes.sass */
-  .full-size div div .skill-subtext {
-    font-size: 6px;
-    line-height: 6px;
-  }
-}
-
 /* line 5, ../../assets/sass/_sprites.sass */
 i {
   background: url('../img/icons-sa9056c06d4.png');
@@ -431,6 +150,59 @@ i {
   width: 30px;
 }
 
+/* line 7, ../../assets/sass/_photos.sass */
+#photos {
+  width: 100%;
+  padding-bottom: 75%;
+  position: relative;
+}
+
+/* line 12, ../../assets/sass/_photos.sass */
+.photo {
+  max-width: 100%;
+  position: absolute;
+  left: 0;
+  -moz-transition: opacity 1s, ease-in-out;
+  -o-transition: opacity 1s, ease-in-out;
+  -webkit-transition: opacity 1s, ease-in-out;
+  transition: opacity 1s, ease-in-out;
+}
+
+/* line 19, ../../assets/sass/_photos.sass */
+#photos img:nth-of-type(1) {
+  animation-delay: 4s;
+}
+/* line 21, ../../assets/sass/_photos.sass */
+#photos img:nth-of-type(2) {
+  animation-delay: 0s;
+}
+
+/* line 24, ../../assets/sass/_photos.sass */
+.photo {
+  animation-name: fadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: calc( ( 4s + 0.5s ) * 2 );
+  animation-direction: alternate;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* line 14, ../../assets/sass/style.sass */
 body {
   padding: 0;
@@ -444,7 +216,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 12, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
 #site-container:after {
   content: " ";
   display: block;
@@ -457,7 +229,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 12, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/susy-2.2.14/sass/susy/output/support/_clearfix.scss */
   #site-container:after {
     content: " ";
     display: block;
@@ -473,44 +245,12 @@ body {
 }
 
 /* line 27, ../../assets/sass/style.sass */
-#skills {
-  border-bottom-width: 0.11111em;
-  border-bottom-style: solid;
-  padding-bottom: 1.88889em;
-}
-/* line 29, ../../assets/sass/style.sass */
-#skills .skill-box {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 33.33333%;
-  float: left;
-  padding-left: 3.33333%;
-  padding-right: 3.33333%;
-}
-/* line 31, ../../assets/sass/style.sass */
-#skills .skill-box .skill-box-content-wrap {
-  display: inline-block;
-  position: relative;
-  width: 100%;
-}
-/* line 35, ../../assets/sass/style.sass */
-#skills .skill-box .skill-box-content-wrap .skill-box-content {
-  position: absolute;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-/* line 39, ../../assets/sass/style.sass */
 #contact {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 43, ../../assets/sass/style.sass */
+/* line 31, ../../assets/sass/style.sass */
 .enforce-aspect {
   padding-top: 100%;
 }

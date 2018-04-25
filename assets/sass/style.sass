@@ -8,8 +8,8 @@ $micro-screen: 340px
 
 @import "clearfix"
 @import "typography"
-@import "skill-boxes"
 @import "sprites"
+@import "photos"
 
 body
   padding: 0
@@ -24,21 +24,9 @@ body
 #intro-text
   +trailing-border(2px, 1)
 
-#skills
-  +trailing-border(2px, 2)
-  .skill-box
-    +span(1 of 3 inside)
-    .skill-box-content-wrap
-      display: inline-block
-      position: relative
-      width: 100%
-      .skill-box-content
-        position: absolute
-        +stretch(0)
-
 #contact
   +leader(1)
-  +trailer(1)
+  +trailer(1)   
 
 .enforce-aspect
   padding-top: 100%

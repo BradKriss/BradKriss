@@ -1,0 +1,51 @@
+$number-of-images: 2 // n
+$visible-time: 4s // a
+$fade-duration: .5s // b
+$total-animation-time: calc( ( #{$visible-time} + #{$fade-duration} ) * #{$number-of-images} )
+  
+  
+#photos
+  width: 100%
+  padding-bottom: 75%
+  position: relative
+  
+.photo
+  max-width: 100%
+  position: absolute
+  left: 0
+  +transition(opacity 1s, ease-in-out)
+
+#photos img
+  &:nth-of-type(1)
+    animation-delay: 4s
+  &:nth-of-type(2)
+    animation-delay: 0s
+
+.photo
+  animation-name: fadeInOut
+  animation-timing-function: ease-in-out
+  animation-iteration-count: infinite
+  animation-duration: $total-animation-time
+  animation-direction: alternate
+
+@keyframes fadeInOut
+  0%
+    opacity: 1
+
+  17%
+    opacity: 1
+
+  25%
+    opacity: 0
+
+  92%
+    opacity: 0
+
+  100%
+    opacity: 1
+
+// 0%
+// a/t*100%
+// (a+b)/t*100% = 1/n*100%
+// 100%-(b/t*100%)
+// 100%
